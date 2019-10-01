@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Agregar -->
+        <div class="row esconder" id="agregar">
+            <div class="col-sm-12">
+                <h1 class="h5 text-center">Agregar Conductor</h1>
+                <form action="" onsubmit="agregarDatos(event,this)">
+                    <div class="form-group">
+                        <label for="">Nombre *</label>
+                        <input required name="nombre" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Apellido *</label>
+                        <input name="apellido" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                            <label for="">Rut *</label>
+                            <input name="rut" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                            <label for="">Fecha de contrato *</label>
+                            <input name="fecha_de_contrato" type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Edad</label>
+                        <input name="edad" type="number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input name="email" type="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Direccion</label>
+                        <input name="direccion" type="text" class="form-control">
+                    </div>
+                    <button class="btn btn-success">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+        <!-- Modificar -->
+        <div class="row esconder" id="modificar">
+            <div class="col-sm-12">
+                <h1 class="h5 text-center" >A buscar</h1>
+                <form action="" onsubmit="modificar(event,this)">
+                    <div class="form-group">
+                        <label for="">Ingrese el nombre del Conductor</label>
+                        <input type="text" name="nombreModificar" class="form-control">
+                    </div>
+                    <button class="btn btn-info">
+                        Buscar
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Eliminar -->
+        <div class="row esconder" id="eliminar">
+            <div class="col-sm-12">
+                <h1 class="h5 text-center" >A Eliminar</h1>
+                <form action="" onsubmit="EliminarObjeto(event,this)">
+                    <div class="form-group">
+                        <label for="">Ingrese el nombre del Conductor</label>
+                        <input type="text" name="nombreaEliminar" class="form-control">
+                    </div>
+                    <button class="btn btn-danger">
+                        Eliminar
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Listar -->
+        <div class="row esconder" id="listar">
+            <div class="col-sm-12">
+                <table class="table table-striped" id="TablaUsuarios">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>rut</th>
+                            <th>fecha_de_contrato</th>
+                            <th>Edad</th>
+                            <th>Email</th>
+                            <th>Direccion</th>
+
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <header>
+        <div class="container">
+            <button coleto="agregar" onclick="muestracoleto(this)" class="btn btn-success">Agregar Condutor</button>
+            <button coleto="modificar" onclick="muestracoleto(this)" class="btn btn-success">Modificar Condutor</button>
+            <button coleto="eliminar" onclick="muestracoleto(this)" class="btn btn-success">Eliminar Condutor</button>
+            <button coleto="listar" onclick="muestracoleto(this)" class="btn btn-success">Listar Condutor</button>
+        </div>
+    </header>
+    
+    <script src="index3.js"></script>
+</body>
+</html>
