@@ -1,39 +1,65 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login Colectivos</title>
-
-   
-        <link  rel = " stylesheet "  href = " https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css ">
-        <script  src = " https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " ></script>
-        <link  rel = " stylesheet "  type = "text/css"  href="./style.css">
-
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css">
+<style>
+    body{
+    background-image: url(https://s3-prod.autonews.com/s3fs-public/16BACKGROUNDILLO-MAIN_i.jpg);   
+    background-size: cover;         
+    }
+</style>
 </head>
-    <div class="modal-dialog text-center">
-        <div class="col-sm-8 main-section">
-            <div class="modal-content">
-                <div class="col-12 user-img ">
-                    <img src="./img/loginn.png"/>
-                 </div>
-                 <form class="col-12">
-                     <div class="form-group" id="user-group">
-                            <input type="text" placeholder="Nombre de usuario"/>
-                     </div>
-                        <div class="checkbox mb-3">
-                            
-                        </div>
-                        <div class="form-group" id="contrasena-group">
-                                <input type="password" placeholder="Contrasena"/>        
-                        </div>
-                        <button type="button" class="btn btn-primary">Ingresar</button>
-                 </form>
-                <div class="col-12 forgot">
-                    <a href="a">Recordar Contrasena</a>
-                </div>
-                
-                </div>
-
+<body>
+     <header>            
+        <div class="center-align circle responsive-img">
+            <img src="/asset/img/loginn.png" alt=""width="300" height="300">
         </div>
-    </div>
+    </header>
+    <div class="valign-wrapper row login-box">
+        <div class="col card hoverable s10 pull-s1 m6 pull-m3 l4 pull-l4">
+            <form action="">
+        <div class="row">
+        <div class="">
+            <div class="">
+                <div class="card-content">
 
+                    <div class="form-field">
+                        <label for="nombresusuario">Ingrese Nombre Usuario</label>
+                        <input type="text"id="nombresusuario"> 
+                    </div><br>
 
+                    <div class="form-field">
+                        <label for="contraseña">Ingrese Contraseña</label>
+                        <input type="text" id="contraseña">
+                    </div><br>
+
+                    <form action="#">
+                        <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Recordar Contraseña</span>
+                        </label>
+                        </p>
+                        <p>
+                    <div class="center-align">
+                        <a class="waves-effect waves-light btn-small">Ingresar</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>    
+</div>
+
+</body>
 </html>
+        
+
+                
+
