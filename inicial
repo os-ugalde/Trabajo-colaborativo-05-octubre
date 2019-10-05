@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 > maxiimum-scale=1.0,minimun-scale=1,0"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicio de Transportes y servicios afines S.A    </title>
+    <link rel="stylesheet" href="css/style.css" 
+    <link href="https://file.myfontastic.com/ieE7wuJ98YBKD95v8kH9A8/icons.css" rel="stylesheet">
+    
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <h1 class ="LOGO">Servicio de Transportes y servicios afines S.A</h1>
+            <span class="icon-menu" id="btn-menu"> </span>
+            <nav class="nav" id="nav">
+             <ul class="menu">
+                <li class="menu__item"><a class="menu__link select " href="">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Iniciar Sesión</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Quienes Somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Registrar</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://www.google.cl/maps/place/Condell+1602,+San+Bernardo,+Regi%C3%B3n+Metropolitana/@-33.6008775,-70.6739775,3a,75y,202.88h,86.7t/data=!3m6!1e1!3m4!1sF_zbJlwDIRr8f4JVXJ3AkA!2e0!7i13312!8i6656!4m5!3m4!1s0x9662d90b26ea6f15:0x6b0d9600e0698285!8m2!3d-33.6010591!4d-70.6729733">Ubicación</a></li>
+                <li class="menu__item"><a class="menu__link" href="https://www.facebook.com/Flota.transervis.5042">Facebook</a></li>
+
+             </ul>
+             </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="img/autoslineado.jpg" alt="" class="banner__img">
+        <div class="contenedor">
+            <h2 class="banner__titulo">Linea 5042 Colectivos</h2>
+            <p class="banner_txt">Tenemos el mejor Servicio Disponible para usted</p>
+
+
+        </div>
+
+        <main class="main">
+            <div class="contenedor">
+                <section class="info">
+                    <article class="info__columna">
+                        <img src="" alt="" class="info__img">src="img1.jpg"
+                        <h2 class="info__titulo">titulo 1</h2>
+                        <p class="info__txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat rerum neque numquam eligendi cupiditate? Veritatis!</p>
+                    </article>
+                    <article class="info__columna">
+                        <img src="" alt="" class="info__img">src="img1.jpg"
+                        <h2 class="info__titulo">titulo 2</h2>
+                        <p class="info__txt">Recusandae, ipsum voluptas minus rerum atque itaque cumque modi amet qui laborum soluta molestiae odit!</p>
+                    </article>
+                    <article class="info__columna">
+                        <img src="" alt="" class="info__img">src="img1.jpg"
+                        <h2 class="info__titulo">titulo 3</h2>
+                        <p class="info__txt">Neque, aliquid. Laboriosam tenetur dolorem in impedit dolores quidem consequatur ipsum voluptatum, quibusdam laborum eligendi!</p>
+                    </article>
+                </section>
+
+
+                <section class="cursos">
+                    <h2 class="section__titulo"></h2>
+                    <div class="cursos__columna">
+                        <img src="" alt="" class="cursos__img">src="img/img2.jpg"
+                        <div class="cursos__descripcion">
+                            <h3 class="cursos__titulo">programacion</h3>
+                            <p class="cursos__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, numquam.</p>
+                        </div>
+                    </div>
+                    <div class="cursos__columna">
+                        <img src="" alt="" class="cursos__img">src="img/img2.jpg"
+                        <div class="cursos__descripcion">
+                            <h3 class="cursos__titulo">diseñoweb</h3>
+                            <p class="cursos__txt">Eos quod non ipsum sapiente aliquid fuga exercitationem quas quia?</p>
+                        </div>
+                    </div>
+                    <div class="cursos__columna">
+                        <img src="" alt="" class="cursos__img">src="img/img2.jpg"
+                        <div class="cursos__descripcion">
+                            <h3 class="cursos__titulo">diseñografico</h3>
+                            <p class="cursos__txt">Facilis fugiat itaque soluta dolor illo! Eveniet id nihil provident.</p>
+                        </div>
+                    </div>
+                    <div class="cursos__columna">
+                        <img src="" alt="" class="cursos__img">src="img/img2.jpg"
+                        <div class="cursos__descripcion">
+                            <h3 class="cursos__titulo">Contacto</h3>
+                            <p class="cursos__txt">Velit modi quod, tempora mollitia ad tenetur adipisci odit sed.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    
+       <footer class="footer">
+         <div class="social">
+             <div class="icon-">facebook</div>
+             <div class="icon-">email</div>
+             <div class="icon-">whatsapp</div>
+             <div class="icon-">ubicacion</div>
+             <div class="icon-">imagenes</div>
+    
+         </div>
+         <p class="copy">&copy; Servicio de Transportes y servicios afines S.A   </p> 
+       </footer>
+
+
+       
+    <script src="js/menu.js"></script>
+
+    
+
+</body>
+</html>
